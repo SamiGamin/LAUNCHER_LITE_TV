@@ -95,40 +95,7 @@ adb shell cmd package resolve-activity --brief -a android.intent.action.MAIN -c 
 * **Almacenamiento Local:** DataStore en `DeviceProtectedStorage`
 * **Imágenes & Banners:** Coil Compose optimizado a resolución exacta de pantalla
 
----
 
-## 🚀 Compilación desde el Código Fuente
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/SamiGamin/TV_lite_Home.git
-   cd TV_lite_Home
-   ```
-2. Compila en modo Release:
-   ```bash
-   ./gradlew assembleRelease
-   ```
-   El APK firmado se generará en: `tv/build/outputs/apk/release/`
-
----
-
-## 🤖 Publicación Automatizada (GitHub Actions)
-
-Este repositorio incluye un flujo de trabajo en `.github/workflows/release.yml` que automatiza las publicaciones:
-
-1. Modifica la versión en [`tv/build.gradle.kts`](tv/build.gradle.kts):
-   ```kotlin
-   versionCode = 2
-   versionName = "1.0.1"
-   ```
-2. Haz commit y push a la rama `master`:
-   ```bash
-   git commit -am "release: bump version to 1.0.1"
-   git push origin master
-   ```
-3. GitHub Actions detectará la nueva versión, compilará el APK firmado con R8/Proguard y publicará automáticamente la nueva **Release** en GitHub con el archivo descargable adjunto.
-
----
 
 ## 📄 Licencia
 
