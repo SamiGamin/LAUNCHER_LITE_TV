@@ -46,13 +46,30 @@
 
 ## 📥 Descarga e Instalación
 
-### Opción 1: Descargar el APK
-Descarga la versión más reciente lista para instalar desde la sección de [Releases de GitHub](https://github.com/SamiGamin/TV_lite_Home/releases/latest).
+### Opción 1: Instalación Rápida en el Televisor (App Downloader)
+La forma más fácil y rápida de instalar directamente en tu Android TV, Google TV o Fire TV sin cables ni PC:
 
-### Opción 2: Instalación por ADB
-Conecta tu televisor por depuración de red o USB y ejecuta:
+1. Instala la app gratuita **Downloader by AFTVnews** desde la Play Store o Appstore de tu televisor.
+2. Abre **Downloader** y en la barra de búsqueda escribe el código directo:
+   # **`7897139`**
+   *(o ingresa la URL corta: `aftv.news/7897139`)*
+3. La descarga comenzará automáticamente y tu televisor te pedirá confirmar la instalación.
+
+---
+
+### Opción 2: Descarga Directa desde GitHub (PC o Navegador)
+* **Página Oficial de Lanzamientos:** [LAUNCHER_LITE_TV Releases](https://github.com/SamiGamin/LAUNCHER_LITE_TV/releases/latest)
+* **Enlace Directo al APK más reciente:**
+  ```text
+  https://github.com/SamiGamin/LAUNCHER_LITE_TV/releases/latest/download/Lite.TV-release.apk
+  ```
+
+---
+
+### Opción 3: Instalación por ADB
+Conecta tu televisor por depuración de red o cable USB y ejecuta en tu terminal:
 ```bash
-adb install -r "Lite TV-v1.0.0-release.apk"
+adb install -r "Lite.TV-release.apk"
 ```
 
 ---
