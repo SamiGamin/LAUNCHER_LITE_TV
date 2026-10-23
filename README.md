@@ -3,7 +3,7 @@
 # Lite TV (TVliteHome) 📺
 
 <p align="center">
-  <img src="tv/src/main/res/drawable-xhdpi/banner.png" alt="Lite TV Banner" width="380"/>
+  <img src="banner.png" alt="Lite TV Banner" width="380"/>
 </p>
 
 <p align="center">
